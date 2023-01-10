@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_inicio"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Inicio" />
+        <item
+            android:id="@+id/nav_usuarios"
+            android:icon="@drawable/soporte32x32"
+            android:title="Usuarios" />
+        <item
+            android:id="@+id/nav_clientes"
+            android:icon="@drawable/adduser32x32"
+            android:title="Clientes" />
+        <item
+            android:id="@+id/nav_transporte"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Transporte" />
+        <item
+            android:id="@+id/pedido"
+            android:icon="@drawable/carritocompras"
+            android:title="Pedidos" />
+
+    </group>
+</menu>
